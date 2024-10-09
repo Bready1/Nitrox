@@ -31,7 +31,7 @@ namespace NitroxModel.Helper
         {
             if (!IsPirateByDirectory(subnauticaRoot))
             {
-                return false;
+                return true;
             }
 
             OnPirateDetected();
